@@ -1,0 +1,65 @@
+---
+title       : Visualize Your Blood Pressure Results
+subtitle    : Interact and interpret blood pressure readings 
+author      : kjco  9/20/2014
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## What do your blood pressure results mean?
+<br>
+#### Systolic and Diastolic Blood Pressure
+* The systolic reading measures the pressure in the arteries when the heart beats.
+* The diastolic reading measures the pressure in the arteries between heartbeats.
+* Often represented as Systolic/Diastolic mmHg (eg. 120/80 mmHg)
+
+<br>
+#### Normal vs. High Blood Pressure
+* A normal blood pressure range is less than 120/80 mmHg.
+* The American Heart Association defines over 140/90 mmHg as High Blood Pressure.
+
+--- .class #id 
+
+## Are there factors that influence blood pressure?
+
+### Male or Female?
+
+![plot of chunk plot gender diff 2](assets/fig/plot gender diff 2.png) 
+
+---
+
+## How do your results compare?
+* Visualize and compare your results to a population of the same gender and age range.
+* Get the calculated percentile of your results in this population.
+  - Your systolic blood pressure is at the 32 percentile of Females age 30 to 40.
+
+![plot of chunk example app](assets/fig/example app.png) 
+
+
+---
+
+## Visualize, Compare, and Interact 
+
+<br>
+
+#### Goals
+* Understand and interpret your own blood pressure results.
+* Gauge the distribution of blood pressures across different populations of gender and age.
+* See where you land in this distribution.
+
+<br>
+##### Information
+
+* Population blood pressure data source: 
+National Health and Nutrition Examination Survey (NHANES) 2011-2012.
+
+* Go to [Visualize Your Blood Pressure Results] shiny webapp!
+
+[Visualize Your Blood Pressure Results]:https://kjco.shinyapps.io/visbp/
+
+
